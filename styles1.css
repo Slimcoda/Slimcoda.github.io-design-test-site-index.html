@@ -1,0 +1,65 @@
+/* COLOUR PALETTE */
+
+.black { background: rgb(0,0,0); }
+.white { background: rgb(255,255,255); }
+.grey10 { background: rgb(230,230,230); }
+.grey25 { background: rgb(200,200,200); }
+.grey50 { background: rgb(150,150,150); }
+.grey75 { background: rgb(100,100,100); }
+.grey85 { background: rgb(77,77,77); }
+
+.purple { background: rgb(113,80,109); }
+.lightorange { background: rgb(246,145,63); }
+.midorange { background: rgb(205,101,14); }
+.darkorange { background: rgb(122,60,7); }
+
+/* UTITLITY */
+
+h1 { font-size: 48px; color: rgb (113,80,109); font-weight: bold; line-height: 1; font-family: 'Candal', sans-serif; }
+
+h2 { font-size: 30px; color: rgb (113,80,109); font-family: 'Candal', sans-serif; }
+
+h3 { font-size: 26px; color: rgb (113,80,109); font-family: 'Candal', sans-serif; }
+
+p { color: rgb (113,113,113);}
+
+body { background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; font-family: 'Candal', 
+    sans-serif; font-size: 18px; }
+
+#master { margin: 0 auto; width: 1020px; border-left: 1px solid rgb(150,150,150); border-right: 1px solid rgb(150,150,150); }
+
+#Header { width: 100%; height: 70px; background: rgb(0,0,0); }
+    .Logo { float: left; margin: 10px 0 0 40px; }
+    .Menu { font-weight: bold; float: right; }
+        .Menu li { list-style-type: none; float: left; margin-right: 30px; }
+        .Menu li a { color: rgb(255,255,255); text-decoration: none; }
+        .HeaderButton { float: right; margin: 10px 40px 0 0 }
+
+#Hero { width: 100%; height: 410px; background: url("images/DavidLeoVeksler.png"); background-position: 0 0;}
+    .HeroiPad { float: left; margin: 75px 0 0 40px; }
+    .HeroText { float: right; width: 400px; margin: 50px 40px 0 0; }
+    .HeroText h1 { color: rgb(238, 142, 16); }
+    .HeroText p { margin-top: -20px; color: rgb(255,255,255); font-size: larger; }
+    .HeroText img { margin-top: 5px; float: right; margin: auto; float: left; margin:auto }
+
+#Introducing { width: 100%; height:410px; text-align: center; padding-top: 90px; }
+	#Introducing h1 { color: rgb(113,80,109); }
+	#Introducing p { color: rgb(113,80,109); }
+	.IntroBox1 {  float: left; width: 300px; margin-left: 40px; color: rgb(113,80,109); }
+	.IntroBox2 {  float: left; width: 300px; margin-left: 20px; color: rgb(113,80,109); }
+	.IntroBox3 {  float: left; width: 300px; margin-left: 20px; color: rgb(113,80,109); }
+
+#Organize { width: 100%; height: 270px; background: rgb(230,230,230); 
+	border-top: solid 1px rgb(150,150,150); border-left: solid 1px rgb(150,150,150);
+	border-buttom: solid 2px rgb(150,150,150); border-right: solid 1px rgb(150,150,150); }
+	.OrganizeText { color: rgb(113,80,109); float: right; width: 400px; margin: -40px 20px 0 0; }
+	#Organize p { font-size: 18px; float: right; margin: -15px 30px 0 0;}
+	.OrganizePic { float: left; margin: -245px 350 350 -540px; }
+	
+ 
+
+#Share { width: 100%; height: 270px; }
+
+#GetitNow { width: 100%; height: 270px; background: rgb(113,80,109) }
+
+#Footer { width: 100%; height: 50px; background: rgb(0,0,0); }
